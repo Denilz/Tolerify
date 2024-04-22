@@ -1,0 +1,3 @@
+[submodule "Tolerify"]
+    path = Tolerify
+    url = https://github.com/Denilz/Tolerify.git
