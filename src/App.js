@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import MainSection from './components/MainSection';
+import EmailSubscription from './components/EmailSubscription'; // Import EmailSubscription component
 import Footer from './components/Footer';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <MainSection />
+      <EmailSubscription /> {/* Include EmailSubscription component */}
       <Footer />
     </div>
   );

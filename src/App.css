@@ -61,7 +61,6 @@
 .main h2 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .main p {
@@ -84,4 +83,41 @@
 .footer p a {
   color: #fff;
   text-decoration: none;
+}
+
+.email-subscription {
+  background-color: #f8f9fa;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.email-subscription h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-form input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscription-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscription-form button:hover {
+  background-color: #0056b3;
 }
