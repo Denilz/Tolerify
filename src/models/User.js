@@ -7,4 +7,4 @@ const userSchema = new mongoose.Schema({
   // Add more fields as needed
 });
 
-module.exports = mongoose.model('User', userSchema); // test
+module.exports = mongoose.model('User', userSchema); 
